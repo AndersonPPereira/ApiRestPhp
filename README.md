@@ -17,4 +17,4 @@ O retorno da consulta:
 Talvez você vai precisar alterar os caminhos, estava dando alguns erros, já peguei direto do c: exemplo:
 include 'C:\xampp\htdocs\apiRest\conexao\Conexao.php';
 
-Qualquer coisa só avisar CAF
+Qualquer coisa a disposição!
