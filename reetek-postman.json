@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "b96e3503-d9f3-43f9-aa58-d1575f247b8c",
+		"name": "reetek-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ConsultarCnpj",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-vtex-api-appKey",
+						"value": ""
+					},
+					{
+						"key": "x-vtex-api-appToken",
+						"value": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf-8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"cnpj\": \"16.820.776/0001-98\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/apirest/view/Conteudo/consultaCnpjBloqueado.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apirest",
+						"view",
+						"Conteudo",
+						"consultaCnpjBloqueado.php"
+					]
+				},
+				"description": "listagem dos dados da tabela"
+			},
+			"response": []
+		}
+	]
+}
